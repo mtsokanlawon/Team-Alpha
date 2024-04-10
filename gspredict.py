@@ -12,7 +12,7 @@ data_path = r"mod_video_games.csv"
 dataset = pd.read_csv(data_path)
 
 # Load prefitted classification model
-link = r"model_classification.pkl"
+link = r"classification_model.pkl"
 with open(link, 'rb') as model_file:
         classifier = pickle.load(model_file)
 
